@@ -79,6 +79,18 @@ We will use this <a href="{{page.collaborative_notes}}">collaborative document</
 
 ---
 
+{% comment %} 
+SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% endcomment %}
+<h2 id="surveys">Surveys</h2>
+<p>Please be sure to complete these surveys before and after the workshop.</p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+
+<hr/>
+
+---
+
 ## Code of Conduct
 
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>.This document also outlines how to report an incident if needed.
